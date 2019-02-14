@@ -1,0 +1,30 @@
+.container {
+	background-color: #999999;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+}
+
+.smallLogoComponent {
+	justify-self: start;
+	padding-left: 5%;
+}
+
+.htn:hover {
+	cursor: pointer;
+}
+
+@media only screen 
+	and (max-width: 768px) {
+		.hackthenews {
+			height: 40px;
+		}
+
+		.htn {
+			height: 25px;
+		}
+
+		.navLinksComponent p {
+			font-size: 70%;
+		}
+	}

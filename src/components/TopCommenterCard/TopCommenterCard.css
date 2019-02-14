@@ -1,0 +1,15 @@
+.commenterBox {
+	border: 1px solid black;
+	background-color: rgba(222, 25, 144, 0.25);
+	width: 25%;
+	margin: 10px auto;	
+	box-shadow: 4px 3px 5px 0 #ccc;
+}
+
+@media only screen 
+	and (max-width: 768px) {
+		.commenterBox{
+			width: 85%;
+		}
+
+	}
