@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hack-the-news/public/precache-manifest.f216e63f6e63a4df421ab97477615f52.js"
+  "/hack-the-news/precache-manifest.c67112dfdd8280ce1388cee765594ca5.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/hack-the-news/public/index.html", {
+workbox.routing.registerNavigationRoute("/hack-the-news/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
