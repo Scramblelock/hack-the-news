@@ -1,0 +1,15 @@
+{
+  "main.css": "/hack-the-news/public/static/css/main.afd52cfb.chunk.css",
+  "main.js": "/hack-the-news/public/static/js/main.f1ab05f1.chunk.js",
+  "main.js.map": "/hack-the-news/public/static/js/main.f1ab05f1.chunk.js.map",
+  "static/js/1.82db7cf9.chunk.js": "/hack-the-news/public/static/js/1.82db7cf9.chunk.js",
+  "static/js/1.82db7cf9.chunk.js.map": "/hack-the-news/public/static/js/1.82db7cf9.chunk.js.map",
+  "runtime~main.js": "/hack-the-news/public/static/js/runtime~main.4cb33a2d.js",
+  "runtime~main.js.map": "/hack-the-news/public/static/js/runtime~main.4cb33a2d.js.map",
+  "static/css/main.afd52cfb.chunk.css.map": "/hack-the-news/public/static/css/main.afd52cfb.chunk.css.map",
+  "static/media/hackthenews.png": "/hack-the-news/public/static/media/hackthenews.39f114ac.png",
+  "static/media/htn.png": "/hack-the-news/public/static/media/htn.f9d155eb.png",
+  "index.html": "/hack-the-news/public/index.html",
+  "precache-manifest.f216e63f6e63a4df421ab97477615f52.js": "/hack-the-news/public/precache-manifest.f216e63f6e63a4df421ab97477615f52.js",
+  "service-worker.js": "/hack-the-news/public/service-worker.js"
+}
