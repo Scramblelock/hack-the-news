@@ -3,9 +3,9 @@ import './StoryCard.css';
 
 const StoryCard = ({ story }) => {
 	return (
-			<div className='storyBox'>
-				<h3>{story}</h3>
-			</div>
+		<div className='storyBox'>
+			<h3>{story}</h3>
+		</div>
 	);
 };
 

@@ -82,7 +82,7 @@ class App extends Component {
       commenterIds.forEach((id) => {
         commenterData.push(
           axios.get(`https://hacker-news.firebaseio.com/v0/item/${id}.json`)
-        );  
+        ); 
       });
       axios.all(commenterData)
         .then((comments) => {
@@ -114,6 +114,7 @@ class App extends Component {
       b = b[1];
       return a > b ? -1 : (a < b ? 1 : 0);
     });
+    console.log(sortedCommenters)
     const topCommenters = sortedCommenters.slice(0, 10);
     return this.setState({ topCommenters, isTopCommenters: true });
   }
